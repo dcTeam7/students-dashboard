@@ -1,3 +1,42 @@
 h1 {
   font-family: "Comfortaa", Verdana, sans-serif;
 }
+
+/* Alterações da Deborah ainda não presente no githun */
+
+.card {
+  content: " "; 
+  width: 150px; 
+  height: 150px; 
+  border: 1px solid white; 
+  border-radius: 10px;
+  box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: " ";
+  width: 65px;
+  height: 65px;
+
+  /* Coloquei esses valores abaixo em relação ao card criado pela Deborah,
+  mas talvez seja necessário fazer ajuste ao replicar para os demais cards */
+  top: 55px;
+  left: 20px;
+  
+  border-radius: 50%;
+  box-shadow: 0px 2px 3px 0.5px rgba(0, 0, 0, 0.3);
+}
+
+.photo {
+  content: " ";
+  background-image: url('https://posterspy.com/wp-content/uploads/2020/04/nemo.jpg');
+  background-position: center;
+  background-size: 60px 60px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+}
