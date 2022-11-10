@@ -14,19 +14,15 @@ h1 {
 }
 
 .container {
-  position: absolute;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   content: " ";
   width: 65px;
   height: 65px;
-
-  /* Coloquei esses valores abaixo em relação ao card criado pela Deborah,
-  mas talvez seja necessário fazer ajuste ao replicar para os demais cards */
-  top: 55px;
-  left: 20px;
-  
+  top: -30px;
+  left: 15px;
   border-radius: 50%;
   box-shadow: 0px 2px 3px 0.5px rgba(0, 0, 0, 0.3);
 }
