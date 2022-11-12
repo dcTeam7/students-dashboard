@@ -10,6 +10,8 @@ h1 {
   font-family: "Comfortaa", Verdana, sans-serif;
 }
 
+/* Alterações da Deborah ainda não presente no github */
+
 .card{
   content: " "; 
   width: 150px; 
@@ -18,4 +20,28 @@ h1 {
   border-radius: 10px;
   background-color: hsla(0, 0%, 100%, 0.8);
   box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: " ";
+  width: 65px;
+  height: 65px;
+  top: -30px;
+  left: 15px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 3px 0.5px rgba(0, 0, 0, 0.3);
+}
+
+.photo {
+  content: " ";
+  background-image: url('https://posterspy.com/wp-content/uploads/2020/04/nemo.jpg');
+  background-position: center;
+  background-size: 60px 60px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
 }
