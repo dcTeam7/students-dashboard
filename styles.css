@@ -1,3 +1,13 @@
+h1,
+h2 {
+  font-family: "Comfortaa", Verdana, sans-serif;
+}
+
+header {
+  margin: 20px auto 50px;
+  text-align: center;
+}
+
 body {
   background-color: #EFEFEF;
   min-height: 100vh;
@@ -5,12 +15,6 @@ body {
   padding-left: 50px;
   margin: auto 0;
 }
-
-h1 {
-  font-family: "Comfortaa", Verdana, sans-serif;
-}
-
-/* Alterações da Deborah ainda não presente no github */
 
 .card{
   content: " "; 
