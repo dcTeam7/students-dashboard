@@ -26,13 +26,6 @@ body {
   margin: 20px;
 }
 
-.card-flexbox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .container {
   position: relative;
   display: flex;
