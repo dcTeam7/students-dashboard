@@ -22,8 +22,9 @@ body {
   border: 1px solid white;
   border-radius: 10px;
   background-color: hsla(0, 0%, 100%, 0.8);
-  box-shadow: 0px 3px 4px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 3px 0.5px rgba(0, 0, 0, 0.3);
   margin: 20px;
+  z-index: -1;
 }
 
 .card-flexbox {
@@ -34,6 +35,7 @@ body {
 }
 
 .container {
+  background-color: white;
   position: relative;
   display: flex;
   justify-content: center;
@@ -42,9 +44,30 @@ body {
   width: 65px;
   height: 65px;
   top: -30px;
-  left: 15px;
+  left: 25px;
   border-radius: 50%;
   box-shadow: 0px 2px 3px 0.5px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.name-tag {
+  position: relative;
+  top: -80px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: end;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px 0.5px rgba(0, 0, 0, 0.3);
+  z-index: -0;
+}
+
+.name {
+  font-family: "Comfortaa", Verdana, sans-serif;
+  position: relative;
+  top: 20%;
+  left: -5%;
 }
 
 .photo {
