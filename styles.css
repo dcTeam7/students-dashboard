@@ -17,8 +17,8 @@ body {
 
 .card {
   content: " ";
-  width: 150px;
-  height: 150px;
+  width: 253px;
+  height: 230px;
   border: 1px solid white;
   border-radius: 10px;
   background-color: hsla(0, 0%, 100%, 0.8);
